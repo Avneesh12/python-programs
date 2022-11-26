@@ -298,6 +298,114 @@
 
 
 
+# Armstromg
+
+# def armstrong_num(n):
+#     temp = n
+#     sum = 0
+#     while temp >0:
+#         digit = temp%10
+#         sum = sum+(digit**3)
+#         temp = temp//10
+#     if sum == n:
+#         print("Armstrong")
+#     else:
+#         print("Not armstrong")
+# 
+# armstrong_num(153)
+
+
+
+
+# def armstrong_num(m):
+#     for n in range(1,m):
+#         temp = n
+#         sum = 0
+#         while temp >0:
+#             digit = temp%10
+#             sum = sum+(digit**3)
+#             temp = temp//10
+#         if sum == n:
+#             print(n)
+#
+#
+# armstrong_num(2000)
+
+
+
+
+# SUm of Digits
+
+# def sum_of_digit(n):
+#     temp = n
+#     sum = 0
+#     while temp>0:
+#         digit = temp%10
+#         sum = sum+digit
+#         temp = temp//10
+#     print("SUm of Digit Is: ",sum)
+#
+# sum_of_digit(1412)
+
+
+
+# Factorial
+
+# def fact(n):
+#     res = 1
+#     for i in range(1,n+1):
+#         res = res * i
+#     return res
+#
+# def new_fact(n):
+#     temp = n
+#     fact_res = 0
+#     while temp>0:
+#         digit = temp%10
+#         fact_res = fact_res + fact(digit)
+#         temp = temp // 10
+#     if n == fact_res:
+#         print("It is ok")
+#     else:
+#         print("Not Ok")
+#
+# new_fact(145)
+
+
+# Iterator
+
+# l = ['Avneesh',"Kumar","Verma","Shivani Sharma"]
+# d = {1:"Avneesh",2:"Shivani"}
+# mem = iter(d.items())
+# print(next(mem))
+# print(next(mem))
+
+# mem = iter(l)
+# print(next(mem))
+# print(next(mem))
+# print(next(mem))
+# print(next(mem))
+# for i in mem:
+#     print(i)
+#
+
+
+
+
+# Generator
+
+# def func():
+#     print("Avneesh")
+#     yield 10
+#     print("Shivani")
+#     yield 20
+#
+# mem = func()
+# print(next(mem))
+# print(next(mem))
+
+
+
 
 
 
