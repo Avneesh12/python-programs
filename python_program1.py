@@ -406,6 +406,69 @@
 
 
 
+# FInd Duplicate Character
+
+# def duplicate(s):
+#     d = {}
+#     for i in s:
+#         if i in d:
+#             d[i] += 1
+#         else:
+#             d[i] = 1
+#     for i in d.values():
+#         if i>1:
+#             return True
+#
+#
+# print(duplicate("Hello"))
+
+
+
+
+# Is 13th a friday
+
+# from datetime import date
+# def hasfriday(y,m):
+#     res = date(y,m,13).strftime("%A")
+#     if res == "Friday":
+#         return True
+#     else:
+#         return False
+#
+# print(hasfriday(2020,4))
+
+
+
+
+# Find Domain
+
+# import socket
+#
+# def find_domain(ip):
+#     res = socket.gethostbyaddr(ip)
+#     return list(res)[0]
+#
+# print(find_domain("192.168.1.5"))
+
+
+
+# Get Dictronary eleminating 0s
+
+# def get_detaiils(s):
+#     b = s.split('0')
+#     c = []
+#     for i in b:
+#         if i != "":
+#             c.append(i)
+#     d = {'fn': c[0], 'ln': c[1], 'dept': c[2]}
+#     return d
+# 
+# print(get_detaiils("Avneesh00000Kumar00000CS"))
+
+
+
+
+
 
 
 
