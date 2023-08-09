@@ -374,8 +374,8 @@
 
 # Iterator
 
-# l = ['Avneesh',"Kumar","Verma","Shivani Sharma"]
-# d = {1:"Avneesh",2:"Shivani"}
+# l = ['Avneesh',"Kumar","Verma","Shiva Sharma"]
+# d = {1:"Avneesh",2:"Shiva"}
 # mem = iter(d.items())
 # print(next(mem))
 # print(next(mem))
@@ -397,7 +397,7 @@
 # def func():
 #     print("Avneesh")
 #     yield 10
-#     print("Shivani")
+#     print("Shiva")
 #     yield 20
 #
 # mem = func()
