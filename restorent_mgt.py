@@ -229,6 +229,83 @@ def ind_pricelist():
 
 #----------------------------------------------------------------------------------------------------------#
 
+
+#western food price list
+
+def western_pricelist():
+    rootIPL = Tk()
+    rootIPL.geometry("400x600+50+20")
+    rootIPL.title("Price List")
+    rootIPL.config(bg = "#D8BFD8")
+    lbl_inditem = Label(rootIPL,text = "Item",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8" ).place(x = 10,y = 0)
+    lbl_inditemPrice = Label(rootIPL,text = "Price(Rs.)",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8").place(x = 250,y = 0)
+    lbl_inditem1 = Label(rootIPL,text = "Garlic Bread",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 40)
+    lbl_inditemPrice1 = Label(rootIPL,text = "400",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 40)
+    lbl_inditem2 = Label(rootIPL,text = "Pancakes",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 80)
+    lbl_inditemPrice2 = Label(rootIPL,text = "300",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 80)
+    lbl_inditem3 = Label(rootIPL,text = "Pizza",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 120)
+    lbl_inditemPrice3 = Label(rootIPL,text = "300",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 120)
+    lbl_inditem4 = Label(rootIPL,text = "Doughnut",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 160)
+    lbl_inditemPrice4 = Label(rootIPL,text = "400",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 160)
+    lbl_inditem5 = Label(rootIPL,text = "Fried Chicken",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 200)
+    lbl_inditemPrice5 = Label(rootIPL,text = "350",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 200)
+    lbl_inditem6 = Label(rootIPL,text = "Waffles",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 240)
+    lbl_inditemPrice6 = Label(rootIPL,text = "250",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 240)
+    lbl_inditem7 = Label(rootIPL,text = "Pasta",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 280)
+    lbl_inditemPrice7 = Label(rootIPL,text = "500",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 280)
+    lbl_inditem8 = Label(rootIPL,text = "Burrito",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 320)
+    lbl_inditemPrice8 = Label(rootIPL,text = "150",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 320)
+    lbl_inditem9 = Label(rootIPL,text = "Chicken Fingers",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 360)
+    lbl_inditemPrice9 = Label(rootIPL,text = "200",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 360)
+    lbl_inditem10 = Label(rootIPL,text = "Cheesecake",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 400)
+    lbl_inditemPrice10 = Label(rootIPL,text = "600",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 400)
+    lbl_inditem11 = Label(rootIPL,text = "Tacos",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 440)
+    lbl_inditemPrice11 = Label(rootIPL,text = "20",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 440)
+
+    rootIPL.mainloop()
+
+
+#----------------------------------------------------------------------------------------------------------#
+
+
+#Chineese food price list
+
+def chineese_pricelist():
+    rootIPL = Tk()
+    rootIPL.geometry("400x600+50+20")
+    rootIPL.title("Price List")
+    rootIPL.config(bg = "#D8BFD8")
+    lbl_inditem = Label(rootIPL,text = "Item",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8" ).place(x = 10,y = 0)
+    lbl_inditemPrice = Label(rootIPL,text = "Price(Rs.)",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8").place(x = 250,y = 0)
+    lbl_inditem1 = Label(rootIPL,text = "Kung Pao Chicken",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 40)
+    lbl_inditemPrice1 = Label(rootIPL,text = "400",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 40)
+    lbl_inditem2 = Label(rootIPL,text = "Sweet and Sour Pork",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 80)
+    lbl_inditemPrice2 = Label(rootIPL,text = "300",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 80)
+    lbl_inditem3 = Label(rootIPL,text = "Peking Roast Duck",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 120)
+    lbl_inditemPrice3 = Label(rootIPL,text = "300",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 120)
+    lbl_inditem4 = Label(rootIPL,text = "Mapo Tofu",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 160)
+    lbl_inditemPrice4 = Label(rootIPL,text = "400",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 160)
+    lbl_inditem5 = Label(rootIPL,text = "Chow Mein",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 200)
+    lbl_inditemPrice5 = Label(rootIPL,text = "350",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 200)
+    lbl_inditem6 = Label(rootIPL,text = "Chinese Hot Pot",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 240)
+    lbl_inditemPrice6 = Label(rootIPL,text = "250",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 240)
+    lbl_inditem7 = Label(rootIPL,text = "Spring Rolls",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 280)
+    lbl_inditemPrice7 = Label(rootIPL,text = "500",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 280)
+    lbl_inditem8 = Label(rootIPL,text = "Wonton Soup",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 320)
+    lbl_inditemPrice8 = Label(rootIPL,text = "150",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 320)
+    lbl_inditem9 = Label(rootIPL,text = "Chicken Fried Rice",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 360)
+    lbl_inditemPrice9 = Label(rootIPL,text = "200",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 360)
+    lbl_inditem10 = Label(rootIPL,text = "Char Siu",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white" ).place(x = 10,y = 400)
+    lbl_inditemPrice10 = Label(rootIPL,text = "600",font = ("sans-serif", 20, "bold"),bg ="#D8BFD8",fg = "white").place(x = 250,y = 400)
+
+    rootIPL.mainloop()
+
+
+
+#----------------------------------------------------------------------------------------------------------#
+
+
+
 #order button click
 
 
@@ -253,6 +330,9 @@ def ind_pricelist():
 
 
 #food order window
+
+# Indian Food Window
+# ----------------------------------------------------------------------------------------------------------
 
 def indian_food_list():
 
@@ -329,6 +409,157 @@ def indian_food_list():
 
 
 
+# --------------------------------------------------------------------------------------------------
+# Western Food Window
+
+def western_food_list():
+
+    ord = Order()
+    ind_root = Tk()
+    ind_root.title("Indian Food")
+    width = ind_root.winfo_screenwidth()
+    height = ind_root.winfo_screenheight()
+    ind_root.geometry("%dx%d" % (width, height))
+    ind_root.config(bg="#FF00FF")
+
+    lbl_orderinfo = Label(ind_root, text="WESTERN FOOD", font=("algerian", 50, "bold"), bg="#FF00FF",
+                          fg="blue").pack()
+
+    lbl_orderitnem1 = Label(ind_root, text="Meal", font=("sans-serif", 25, "bold"), bg="#FF00FF").place(x=50, y=150)
+    lbl_orderquantity1 = Label(ind_root, text="Quantity", font=("sans-serif", 25, "bold"), bg="#FF00FF").place(x=350,
+                                                                                                               y=150)
+
+    lbl_meal1 = Label(ind_root, text="Garlic Bread", font=("sans-serif", 20, "bold"), bg="#FF00FF").place(x=50,
+                                                                                                             y=200)
+    ord.meal1 = StringVar()
+    ent_meal1 = Entry(ind_root, font=("sans-serif", 20, "bold"),textvariable = ord.meal1).place(x=350, y=200)
+
+    lbl_meal2 = Label(ind_root, text="Pancakes", font=("sans-serif", 20, "bold"), bg="#FF00FF").place(x=50,
+                                                                                                             y=250)
+    ent_meal2 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=350, y=250)
+
+    lbl_meal3 = Label(ind_root, text="Pizza", font=("sans-serif", 20, "bold"), bg="#FF00FF").place(x=50,
+                                                                                                             y=300)
+    ent_meal3 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=350, y=300)
+
+    lbl_meal4 = Label(ind_root, text="Doughnut", font=("sans-serif", 20, "bold"), bg="#FF00FF").place(x=50,
+                                                                                                             y=350)
+    ent_meal4 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=350, y=350)
+
+    lbl_meal5 = Label(ind_root, text="Fried Chicken", font=("sans-serif", 20, "bold"), bg="#FF00FF").place(x=50,
+                                                                                                             y=400)
+    ent_meal5 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=350, y=400)
+
+    lbl_meal6 = Label(ind_root, text="Waffles", font=("sans-serif", 20, "bold"), bg="#FF00FF").place(x=50,
+                                                                                                             y=450)
+    ent_meal6 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=350, y=450)
+
+    lbl_orderitnem2 = Label(ind_root, text="Meal", font=("sans-serif", 25, "bold"), bg="#FF00FF").place(x=700, y=150)
+    lbl_orderquantity2 = Label(ind_root, text="Quantity", font=("sans-serif", 25, "bold"), bg="#FF00FF").place(x=1000,
+                                                                                                               y=150)
+
+    lbl_meal7 = Label(ind_root, text="Pasta", font=("sans-serif", 20, "bold"), bg="#FF00FF").place(x=700,
+                                                                                                             y=200)
+    ent_meal7 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=1000, y=200)
+
+    lbl_meal8 = Label(ind_root, text="Burrito", font=("sans-serif", 20, "bold"), bg="#FF00FF").place(x=700,
+                                                                                                             y=250)
+    ent_meal8 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=1000, y=250)
+
+    lbl_meal9 = Label(ind_root, text="Chicken Fingers", font=("sans-serif", 20, "bold"), bg="#FF00FF").place(x=700,
+                                                                                                             y=300)
+    ent_meal9 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=1000, y=300)
+
+    lbl_meal10 = Label(ind_root, text="Cheesecake", font=("sans-serif", 20, "bold"), bg="#FF00FF").place(x=700,
+                                                                                                              y=350)
+    ent_meal10 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=1000, y=350)
+
+    lbl_meal11 = Label(ind_root, text="Tacos", font=("sans-serif", 20, "bold"), bg="#FF00FF").place(x=700,
+                                                                                                              y=400)
+    ent_meal11 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=1000, y=400)
+
+    btn_pricelist = Button(ind_root, text="Price List", font=("sans-serif", 20, "bold"),bg = "red",fg = "white", command=western_pricelist).place(
+        x=500, y=550)
+
+    btn_ordernow = Button(ind_root, text="Order Now", font=("sans-serif", 20, "bold"),bg = "blue",fg = "white",command = ord.ordernow_indfood).place(x=700, y=550)
+    ind_root.mainloop()
+
+
+# --------------------------------------------------------------------------------------------------
+# Chineese Food Window
+
+def chineese_food_list():
+
+    ord = Order()
+    ind_root = Tk()
+    ind_root.title("Indian Food")
+    width = ind_root.winfo_screenwidth()
+    height = ind_root.winfo_screenheight()
+    ind_root.geometry("%dx%d" % (width, height))
+    ind_root.config(bg="#FFFDD0")
+
+    lbl_orderinfo = Label(ind_root, text="CHINESE FOOD", font=("algerian", 50, "bold"), bg="#FFFDD0",
+                          fg="blue").pack()
+
+    lbl_orderitnem1 = Label(ind_root, text="Meal", font=("sans-serif", 25, "bold"), bg="#FFFDD0").place(x=50, y=150)
+    lbl_orderquantity1 = Label(ind_root, text="Quantity", font=("sans-serif", 25, "bold"), bg="#FFFDD0").place(x=350,
+                                                                                                               y=150)
+
+    lbl_meal1 = Label(ind_root, text="Kung Pao Chicken", font=("sans-serif", 20, "bold"), bg="#FFFDD0").place(x=50,
+                                                                                                             y=200)
+    ord.meal1 = StringVar()
+    ent_meal1 = Entry(ind_root, font=("sans-serif", 20, "bold"),textvariable = ord.meal1).place(x=350, y=200)
+
+    lbl_meal2 = Label(ind_root, text="Sweet and Sour Pork", font=("sans-serif", 20, "bold"), bg="#FFFDD0").place(x=50,
+                                                                                                             y=250)
+    ent_meal2 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=350, y=250)
+
+    lbl_meal3 = Label(ind_root, text="Peking Roast Duck", font=("sans-serif", 20, "bold"), bg="#FFFDD0").place(x=50,
+                                                                                                             y=300)
+    ent_meal3 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=350, y=300)
+
+    lbl_meal4 = Label(ind_root, text="Mapo Tofu", font=("sans-serif", 20, "bold"), bg="#FFFDD0").place(x=50,
+                                                                                                             y=350)
+    ent_meal4 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=350, y=350)
+
+    lbl_meal5 = Label(ind_root, text="Chow Mein", font=("sans-serif", 20, "bold"), bg="#FFFDD0").place(x=50,
+                                                                                                             y=400)
+    ent_meal5 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=350, y=400)
+
+
+
+    lbl_orderitnem2 = Label(ind_root, text="Meal", font=("sans-serif", 25, "bold"), bg="#FFFDD0").place(x=700, y=150)
+    lbl_orderquantity2 = Label(ind_root, text="Quantity", font=("sans-serif", 25, "bold"), bg="#FFFDD0").place(x=1000,
+                                                                                                               y=150)
+
+    lbl_meal7 = Label(ind_root, text="Chinese Hot Pot", font=("sans-serif", 20, "bold"), bg="#FFFDD0").place(x=700,
+                                                                                                             y=200)
+    ent_meal7 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=1000, y=200)
+
+    lbl_meal8 = Label(ind_root, text="Spring Rolls", font=("sans-serif", 20, "bold"), bg="#FFFDD0").place(x=700,
+                                                                                                             y=250)
+    ent_meal8 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=1000, y=250)
+
+    lbl_meal9 = Label(ind_root, text="Wonton Soup", font=("sans-serif", 20, "bold"), bg="#FFFDD0").place(x=700,
+                                                                                                             y=300)
+    ent_meal9 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=1000, y=300)
+
+    lbl_meal10 = Label(ind_root, text="Chicken Fried Rice", font=("sans-serif", 20, "bold"), bg="#FFFDD0").place(x=700,
+                                                                                                              y=350)
+    ent_meal10 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=1000, y=350)
+
+    lbl_meal11 = Label(ind_root, text="Char Siu", font=("sans-serif", 20, "bold"), bg="#FFFDD0").place(x=700,
+                                                                                                              y=400)
+    ent_meal11 = Entry(ind_root, font=("sans-serif", 20, "bold")).place(x=1000, y=400)
+
+    btn_pricelist = Button(ind_root, text="Price List", font=("sans-serif", 20, "bold"),bg = "red",fg = "white", command=chineese_pricelist).place(
+        x=500, y=550)
+
+    btn_ordernow = Button(ind_root, text="Order Now", font=("sans-serif", 20, "bold"),bg = "blue",fg = "white",command = ord.ordernow_indfood).place(x=700, y=550)
+    ind_root.mainloop()
+
+
+
 
 
 
@@ -360,8 +591,8 @@ def order():
     photo3 = ImageTk.PhotoImage(rimg3)
 
     btn1 = Button(order_root, image=photo1,command = indian_food_list).place(x=50, y=130)
-    btn2 = Button(order_root, image=photo2).place(x=420, y=130)
-    btn3 = Button(order_root, image=photo3).place(x=790, y=130)
+    btn2 = Button(order_root, image=photo2,command = western_food_list).place(x=420, y=130)
+    btn3 = Button(order_root, image=photo3,command = chineese_food_list).place(x=790, y=130)
 
     lbl_indianfood = Label(order_root, text="Indian Food", font=("sans-serif", 25, "bold"), bg="#FFFDD0", fg="red")
     lbl_indianfood.place(x=100, y=440)
